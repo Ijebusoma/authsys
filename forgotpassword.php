@@ -17,36 +17,20 @@
 <!-- //Meta tag Keywords -->
 </head>
 <body>
-	<h1>Register</h1>
+	<h1>Forgot Password</h1>
 	<div class="w3layouts">
-	<!-- Sign in -->
-		<div class="signin-agile">
-			<h2>Login</h2>
-			<label class="bar-w3-agile"></label>
-			<form action="logincontrol.php" method="post">
+
+<form action="forgotpassword2.php" method="post">
 				<p>Username</p>
-				<input type="text" name="username" class="name" placeholder="" required="" />
-				<p>Password</p>
-				<input type="password" name="password" class="password" placeholder="" required="" />
-				<ul>
-					<li>
-						<input type="checkbox" id="brand1" value="">
-						<label for="brand1"><span></span>Keep me signed in</label>
-					</li>
-				</ul>
-				<a href="forgotpassword.php">Forgot Password?</a><br>
-				<div class="clear"></div>
-				<input type="submit" value="Login" name="submit">
+				<input type="text" name="username" placeholder="" required=""/>
+				<p>New Password</p>
+				<input type="password" name="password" class="password" placeholder="" required=""/>
+				<p>Confirm Password</p>
+				<input type="password" name="confirmpassword" class="password" placeholder="" required=""/>
+				<input type="submit" value="Update" name="submit">
 			</form>
-		</div>
-	<!-- //Sign in -->
-
-		<div class="clear"></div>
 	</div>
-	<div class="footer-w3l">
-		<p class="agileinfo"> </a></p>
-	</div>
-
+</div>
 <!-- // Pop up -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
