@@ -20,7 +20,7 @@
 	<h1>Forgot Password</h1>
 	<div class="w3layouts">
 
-<form action="forgotpassword2.php" method="post">
+<form action="resetpassword2.php" method="post">
 				<p>Username</p>
 				<input type="text" name="username" placeholder="" required=""/>
 				<p>New Password</p>
